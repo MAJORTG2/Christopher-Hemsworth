@@ -141,6 +141,14 @@ python3 bot.py
 ```
 <b> 😇CREATOR » [Aswin](https://t.me/Aswin_pm_Bot)</b>
 
+## Deploy To Render
+
+◉ watch tutorial for render deploy <a href="https://youtu.be/i6OX3xzOCGY"><img src="https://img.shields.io/badge/Watch%20Tutorial%20On%20YouTube-red.svg?logo=Youtube"></a>                     
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MAJORTG2/Christopher-Hemsworth)
+
+
+
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 2.0.](https://github.com/Devil-Botz/Elsa-V3/blob/main/LICENSE)
