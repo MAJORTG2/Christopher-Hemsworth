@@ -10,5 +10,3 @@ RUN mkdir /Christopher-Hemsworth
 WORKDIR /Christopher-Hemsworth
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-
-path to <empty>
