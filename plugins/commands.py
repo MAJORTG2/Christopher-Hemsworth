@@ -610,13 +610,13 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'shortlink_api', api)
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
-     # Set up logging
+     
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-# Define the token of the bot whose features you want to clone
+
 ORIGINAL_BOT_TOKEN = 'ORIGINAL_BOT_TOKEN_HERE'
 
-# Define the commands for the new bot
+
 COMMANDS = ['/start', '/help']
 
 def start(update: Update, context: CallbackContext) -> None:
@@ -651,19 +651,18 @@ def button_callback(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Main function"""
-    # Authenticate with the Telegram API
+    
     updater = Updater('NEW_BOT_TOKEN_HERE')
     dispatcher = updater.dispatcher
 
-    # Set up command handlers
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CommandHandler('help', help))
     dispatcher.add_handler(CommandHandler('clonebot', clone_bot))
 
-    # Set up inline keyboard callback handler
+   
     dispatcher.add_handler(CallbackQueryHandler(button_callback))
 
-    # Start the bot
+
     updater.start_polling()
     updater.idle()
 
